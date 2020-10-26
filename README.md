@@ -1,7 +1,7 @@
 # ORRAI_AlgFairnessCorrectionDemo
 Objective - Find Algorithmically Fairer Classification Thresholds
 ------------------------------------------------------------------
-This project is the R code repository for the methodology introduced and exemplified in the paper "The Pursuit of Algorithmic Fairness: On "Correcting" Algorithmic Unfairness in a Child Welfare Reunification Success Classifier", available on arXive (https://arxiv.org/abs/2010.12089).   Though motivated by and developed for predictive risk tools in Child Welfare, the developed procedure is applicable to any context utilizing risk scores via thresholding of a machine learning binary classification algorithm.
+This project is the R code repository for the methodology introduced and exemplified in the paper "The Pursuit of Algorithmic Fairness: On 'Correcting' Algorithmic Unfairness in a Child Welfare Reunification Success Classifier", available on arXive (https://arxiv.org/abs/2010.12089).   Though motivated by and developed for predictive risk tools in Child Welfare, the developed procedure is applicable to any context utilizing risk scores via thresholding of a machine learning binary classification algorithm.
 
 The objective of the procedure is to produce algorithmically fairer risk scores through the identification of protected-attribute-level-specific threshold values.  Such a procedure, though similar to other post-processing group-specific thresholding methods, is novel in its use of a penalized optimizer and contextually requisite subsampling to handle interdependence between and within observational units.   
 
